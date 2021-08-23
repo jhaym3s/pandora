@@ -1,2 +1,3 @@
-export 'package:pandora/widgets/avatar.dart';
-export 'package:pandora/widgets/icon_buttons.dart';
+export 'avatar.dart';
+export 'icon_buttons.dart';
+export 'glowing_action_button.dart';

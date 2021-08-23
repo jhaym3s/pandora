@@ -157,6 +157,7 @@ class _NavigationBarItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
+      //this makes the environment. it is tapable.
       onTap: () {
         onTap(index);
       },

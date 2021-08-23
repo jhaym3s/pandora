@@ -2,6 +2,7 @@ import 'package:faker/faker.dart';
 import 'package:flutter/material.dart';
 import 'package:jiffy/jiffy.dart';
 import 'package:pandora/models/models.dart';
+import 'package:pandora/screen/screens.dart';
 import 'package:pandora/widgets/widgets.dart';
 
 import '../helpers.dart';
@@ -54,7 +55,7 @@ class _MessageTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-       // Navigator.of(context).push(ChatScreen.route(messageData));
+       Navigator.of(context).push(ChatScreen.route(messageData));
       },
       child: Container(
         height: 100,
